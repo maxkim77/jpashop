@@ -8,6 +8,7 @@ import java.util.List;
 
 @Repository
 public class MemberRepository {
+    /*MemberRepository 클래스입니다. 이 클래스는 Member 엔티티를 데이터베이스에 저장하고, ID를 통해 Member 엔티티를 검색하는 기능을 제공*/
     @PersistenceContext
     private EntityManager em;
 
